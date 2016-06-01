@@ -9,8 +9,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.jeromeyang.risingbubble.MainActivity">
 
-    <TextView
+    <com.jeromeyang.risingbubble.TextDrawableView
+        android:id="@+id/tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:gravity="center_vertical"
+        android:text="Hello World!"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:src="@mipmap/ic_launcher"/>
 </RelativeLayout>
